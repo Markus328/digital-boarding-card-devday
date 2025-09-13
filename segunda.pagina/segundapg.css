@@ -1,0 +1,63 @@
+/* Reset e fonte */
+* {
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  }
+  
+  /* Cartão */
+  .cartao-embarque {
+    width: 400px;
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    position: relative;
+    border-top: 6px solid #ff6b6b;
+  }
+  
+  /* Cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #ff6b6b, #ff8e72);
+    color: #fff;
+  }
+  
+  .voo-info span {
+    display: block;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .voo-info strong {
+    font-size: 22px;
+    margin-top: 2px;
+  }
+  
+  .local-origem-destino span {
+    display: block;
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  /* Info principal */
+  .info-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    background: #f0f8ff;
+    position: relative;
+  }
